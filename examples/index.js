@@ -21,10 +21,10 @@ function onList( error, list ) {
 	opts = {
 		'packages': list
 	};
-	counts( opts, onUrls );
+	counts( opts, onCounts );
 }
 
-function onUrls( error, data ) {
+function onCounts( error, data ) {
 	if ( error ) {
 		throw error;
 	}

@@ -9,7 +9,6 @@ Options:
                               'last-month','last-week','last-day') or a date
                               range (e.g., '2015-12-01:2016-01-01'). Default:
                               'last-month'.
-       --total                Return the total package downloads.
        --format format        Output format: csv or json. Default: 'csv'.
        --delimiter delimiter  CSV column delimiter. Default: ','.
 

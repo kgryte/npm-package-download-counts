@@ -1,0 +1,217 @@
+{
+  "beep": {
+    "downloads": [
+      {
+        "day": "2015-12-08",
+        "downloads": 1
+      },
+      {
+        "day": "2015-12-09",
+        "downloads": 28
+      },
+      {
+        "day": "2015-12-10",
+        "downloads": 40
+      },
+      {
+        "day": "2015-12-11",
+        "downloads": 8
+      },
+      {
+        "day": "2015-12-13",
+        "downloads": 29
+      },
+      {
+        "day": "2015-12-14",
+        "downloads": 15
+      },
+      {
+        "day": "2015-12-15",
+        "downloads": 49
+      },
+      {
+        "day": "2015-12-16",
+        "downloads": 10
+      },
+      {
+        "day": "2015-12-18",
+        "downloads": 15
+      },
+      {
+        "day": "2015-12-19",
+        "downloads": 2
+      },
+      {
+        "day": "2015-12-20",
+        "downloads": 13
+      },
+      {
+        "day": "2015-12-21",
+        "downloads": 1
+      },
+      {
+        "day": "2015-12-22",
+        "downloads": 9
+      },
+      {
+        "day": "2015-12-23",
+        "downloads": 35
+      },
+      {
+        "day": "2015-12-25",
+        "downloads": 16
+      },
+      {
+        "day": "2015-12-27",
+        "downloads": 15
+      },
+      {
+        "day": "2015-12-29",
+        "downloads": 5
+      },
+      {
+        "day": "2015-12-30",
+        "downloads": 1
+      },
+      {
+        "day": "2015-12-31",
+        "downloads": 9
+      },
+      {
+        "day": "2016-01-02",
+        "downloads": 3
+      },
+      {
+        "day": "2016-01-03",
+        "downloads": 8
+      },
+      {
+        "day": "2016-01-04",
+        "downloads": 5
+      },
+      {
+        "day": "2016-01-05",
+        "downloads": 1
+      },
+      {
+        "day": "2016-01-06",
+        "downloads": 1
+      }
+    ],
+    "start": "2015-12-08",
+    "end": "2016-01-06",
+    "package": "beep"
+  },
+  "boop": {
+    "downloads": [
+      {
+        "day": "2015-12-08",
+        "downloads": 4
+      },
+      {
+        "day": "2015-12-09",
+        "downloads": 18
+      },
+      {
+        "day": "2015-12-10",
+        "downloads": 33
+      },
+      {
+        "day": "2015-12-12",
+        "downloads": 5
+      },
+      {
+        "day": "2015-12-13",
+        "downloads": 22
+      },
+      {
+        "day": "2015-12-14",
+        "downloads": 16
+      },
+      {
+        "day": "2015-12-15",
+        "downloads": 49
+      },
+      {
+        "day": "2015-12-16",
+        "downloads": 197
+      },
+      {
+        "day": "2015-12-17",
+        "downloads": 25
+      },
+      {
+        "day": "2015-12-19",
+        "downloads": 2
+      },
+      {
+        "day": "2015-12-20",
+        "downloads": 2
+      },
+      {
+        "day": "2015-12-21",
+        "downloads": 7
+      },
+      {
+        "day": "2015-12-22",
+        "downloads": 2
+      },
+      {
+        "day": "2015-12-23",
+        "downloads": 25
+      },
+      {
+        "day": "2015-12-24",
+        "downloads": 55
+      },
+      {
+        "day": "2015-12-27",
+        "downloads": 15
+      },
+      {
+        "day": "2015-12-28",
+        "downloads": 96
+      },
+      {
+        "day": "2015-12-29",
+        "downloads": 59
+      },
+      {
+        "day": "2015-12-30",
+        "downloads": 145
+      },
+      {
+        "day": "2015-12-31",
+        "downloads": 141
+      },
+      {
+        "day": "2016-01-01",
+        "downloads": 69
+      },
+      {
+        "day": "2016-01-02",
+        "downloads": 48
+      },
+      {
+        "day": "2016-01-03",
+        "downloads": 190
+      },
+      {
+        "day": "2016-01-04",
+        "downloads": 122
+      },
+      {
+        "day": "2016-01-05",
+        "downloads": 128
+      },
+      {
+        "day": "2016-01-06",
+        "downloads": 28
+      }
+    ],
+    "start": "2015-12-08",
+    "end": "2016-01-06",
+    "package": "boop"
+  },
+  "unknown_package_name": null
+}

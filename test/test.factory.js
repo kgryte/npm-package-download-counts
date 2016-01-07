@@ -113,6 +113,48 @@ test( 'if a `port` option is not specified and the protocol is `http`, the defau
 	}
 });
 
+test( 'if a `period` option is not specified, the default period is `last-month`', function test( t ) {
+	var factory;
+	var opts;
+	var fcn;
+
+	factory = proxyquire( './../lib/factory.js', {
+		'./get.js': get
+	});
+
+	opts = getOpts();
+	delete opts.period;
+
+	fcn = factory( opts, noop );
+	fcn();
+
+	function get( opts ) {
+		t.equal( opts.period, 'last-month', 'sets the default period to `last-month`' );
+		t.end();
+	}
+});
+
+test( 'function supports specifying a query period', function test( t ) {
+	var factory;
+	var opts;
+	var fcn;
+
+	factory = proxyquire( './../lib/factory.js', {
+		'./get.js': get
+	});
+
+	opts = getOpts();
+	opts.period = '2015-12-01:2016-01-01';
+
+	fcn = factory( opts, noop );
+	fcn();
+
+	function get( options ) {
+		t.equal( options.period, opts.period, 'equal query periods' );
+		t.end();
+	}
+});
+
 test( 'function returns a function which returns an error to a provided callback if an error is encountered when fetching package download counts', function test( t ) {
 	var factory;
 	var counts;

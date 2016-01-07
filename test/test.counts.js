@@ -21,7 +21,7 @@ test( 'file exports a function', function test( t ) {
 	t.end();
 });
 
-test( 'function returns an error to a provided callback if an error is encountered when fetching a package download counts', function test( t ) {
+test( 'function returns an error to a provided callback if an error is encountered when fetching package download counts', function test( t ) {
 	var counts;
 	var opts;
 

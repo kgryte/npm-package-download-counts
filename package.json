@@ -1,6 +1,6 @@
 {
   "name": "npm-package-download-counts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get download counts for one or more packages.",
   "author": {
     "name": "Athan Reines",

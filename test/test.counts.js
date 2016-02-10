@@ -63,7 +63,7 @@ test( 'function returns package download counts to a provided callback', functio
 	counts( opts, done );
 
 	function factory( opts, clbk ) {
-		return function list() {
+		return function counts() {
 			setTimeout( onTimeout, 0 );
 			function onTimeout() {
 				clbk( null, data );
